@@ -1,0 +1,42 @@
+# ==============================================
+# Framework Web & Servidor
+# ==============================================
+fastapi
+uvicorn[standard]
+python-multipart  # Upload de arquivos
+
+# ==============================================
+# LangChain e Ecossistema RAG
+# ==============================================
+langchain
+langchain-community
+langchain-core
+langchain-groq
+
+# ==============================================
+# Vectorstore e Embeddings
+# ==============================================
+pinecone-client  # Nome correto do pacote Pinecone
+langchain-google-genai  # Embeddings da Google
+
+# ==============================================
+# Processamento de PDF
+# ==============================================
+pypdf  # Backend para PyPDFLoader (via langchain-community)
+
+# ==============================================
+# Variáveis de Ambiente e Configuração
+# ==============================================
+python-dotenv
+
+# ==============================================
+# Tipagem & Utilitários
+# ==============================================
+pydantic
+requests
+tqdm
+
+# ==============================================
+# Logging (Opcional, mas recomendado)
+# ==============================================
+loguru
