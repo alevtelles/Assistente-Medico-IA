@@ -1,4 +1,4 @@
-# 🩺 Assistente Virtual Médico com IA — Solução Baseada em RAG
+# 🩺 Assistente Virtual Médico com IA - Solução Baseada em RAG
 
 Este aplicativo é um chatbot médico que utiliza a técnica de RAG (Retrieval Augmented Generation) para fornecer respostas precisas e relevantes a partir de documentos médicos carregados pelo usuário. O sistema realiza uma recuperação de informações (retrieval) e as utiliza como contexto para gerar respostas contextualmente mais robustas, minimizando erros e aumentando a assertividade nas respostas médicas.
 
