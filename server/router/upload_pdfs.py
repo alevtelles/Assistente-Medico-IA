@@ -10,10 +10,10 @@ router=APIRouter()
 @router.post("/upload_pdfs")
 async def upload_pdfs(files:List[UploadFile] = File(...)):
     try:
-        logger.info("Recived upload files")
+        logger.info("Arquivos de upload recebidos")
         load_vectorstore(files)
-        logger.info("Document added to vectorstore")
-        return {"message": "File processed and vectorstore updated"}
+        logger.info("Documento adicionado ao repositório vetorial")
+        return {"message": "Arquivo processado e repositório vetorial atualizado"}
     except Exception as e:
-        logger.exception("Error during PDF upload")
+        logger.exception("Erro durante o upload do PDF")
         return JSONResponse(status_code=500, content={"error":str(e)})
